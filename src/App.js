@@ -1,8 +1,11 @@
 import './App.css';
 // import About from './Components/About';
-import Navbar from './Components/Navbar';
-import TextForm from './Components/TextForm';
-import DidMount from './Components/Lifecycle/DidMount';
+// import Navbar from './Components/Navbar';
+// import TextForm from './Components/TextForm';
+// import DidMount from './Components/Lifecycle/DidMount';
+import State from './Components/UseState/State';
+
+
 
 function App() {
   return (        
@@ -14,7 +17,9 @@ function App() {
        </div>  */}
      {/* <About/> */}
      
-     <DidMount />
+     {/* <DidMount /> */}
+    
+    <State />
     </>
   );
 }
